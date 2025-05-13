@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Code') {
       steps {
-       git 'git@github.com:Joshuanoc/devops-project.git
+       git 'git@github.com:Joshuanoc/devops-project.git'
 
       }
     }
