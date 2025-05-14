@@ -17,7 +17,7 @@ environment {
     }
     stage('Test Run') {
       steps {
-        sh 'docker run -d -p 5001:5000 myapp'
+        sh 'docker run -d -p 5002:5000 myapp'
       }
     }
   }
